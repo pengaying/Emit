@@ -1,0 +1,545 @@
+
+.Choose_Mode{
+  height: 101px;
+  width: 1273px;
+  padding: 8px 2px 0 5px;
+  background: #182445 100%;
+  margin: 0 auto;
+}
+
+.SelectMode_Linkto{
+  float: left;
+  height:101px;
+  width: 1280px;
+}
+
+.Select_Mode{
+  float:left;
+  height:101px;
+  width: 170px;
+  background: #182445 100%;
+}
+
+.SelectMode{
+  float:left;
+  height:70px;
+  width: 170px;
+  background:#25345d;
+  font-family: 'HelveticaNeue';
+  font-size: 12px;
+  color:#909cb9;
+  margin-bottom: 7px;
+}
+
+.ModeSelect_Span{
+  color:#909cb9;
+  font-family: '微软雅黑';
+  font-size: 12px;
+  line-height: 17px;
+  text-align: center;
+  margin:7px;
+}
+
+.SelectMode_showArea{
+  float:left;
+  width: 1000px;
+} 
+
+/* 置位模式 */
+.Placement_Mode{
+  margin:2px 0 0 10px;
+}
+
+.Alarm_Mode{
+  margin:2px 0 0 10px;
+  height:70px;
+}
+
+.ModeSelect_Child_Title{
+  text-align: center;
+}
+.ModeSelect_Font{
+  color:#bbc4da;
+  font-family: 微软雅黑;
+  font-size: 12px;
+  line-height: 17px;
+}
+/* 手动模式 */
+.Manual_Mode{
+  margin:5px 0 0 10px;
+  color:#bbc4da;
+}
+
+/* 3号战模式选择*/
+.Mode_Decision{
+  float:left;
+  height:70px;
+  width: 95px;
+  margin:0 4px 0 5px;
+  background: #25345d;
+}
+
+/* 置位 */
+.SelectMode_Placement_showArea{
+  float:left;
+  width: 1000px;
+  /* display:none; */
+} 
+/* 圆扫 */
+.SelectMode_CircularSweep_showArea{
+  float:left;
+  /* display:none; */
+  width: 1000px;
+} 
+/* 扇扫 */
+.SelectMode_FanSweep_showArea{
+  /* display:none; */
+  float:left;
+  width: 1000px;
+} 
+/* 手动 */
+.SelectMode_Manual_showArea{
+  /* display:none; */
+  float:left;
+  width: 1000px;
+} 
+
+
+/* 侧边栏 */
+.SideCol{
+  height:700px;
+  width: 1280px;
+  background: #e1e4eb;
+  margin: 0 auto;
+}
+
+.LightImage{
+  margin: 5px 27px 3px 25px;
+  width: 18px;
+  height: 18px;
+  vertical-align:middle;
+}
+
+.LightSpan{
+  margin: 5px 16px 3px 18px;
+  font-size: 14px;
+  color: #6a6a6a;
+}
+
+.Light_Span{
+  margin: 5px 16px 3px 12px;
+  font-size: 14px;
+  color: #6a6a6a;
+}
+
+.Hundred_Light_Span{
+  margin: 5px 7px 3px 12px;
+  font-size: 14px;
+  color: #6a6a6a;
+}
+
+.light{
+  float: right;
+  width: 645px;
+  max-height: 1200px;
+  font-family: 'PingFangSC-Regula';
+  font-size: 12px;
+  line-height: 20px;
+  margin-right: -10px;
+  background: #ffffff;
+  background: 100% center #ffffff;
+  border: 2px solid #2884D8;
+  box-shadow:4px 4px 20px #000000 ;
+  }
+
+.Light_Hundred{
+  width: 645px;
+  height: auto;
+  font-family: '微软雅黑';
+  font-size: 12px;
+  line-height: 20px;
+  margin-right: 20px;
+  text-align: center;
+  background: #ffffff;
+  border: 2px solid #2884D8;
+  box-shadow:4px 4px 20px #000000 ;
+}
+
+.Light_Hundred_State{
+  width: 580px;
+  height: 835px;
+  font-family: '微软雅黑';
+  font-size: 12px;
+  line-height: 20px;
+  margin-right: 20px;
+  text-align: center;
+  background: #ffffff;
+  }
+
+.radiobutton_title{
+  float: left;
+  width:100%;
+  height:20px;
+  color: #333333;
+  text-align: center;
+  margin-top:5px;
+}
+
+.radiobutton_position{
+float: left;
+width:78px;
+
+margin-left: 40px;
+color: #666666;
+}
+.radiobutton_positionAll{
+  width:78px;
+  height:40px;
+  
+  color: #666666;
+  }
+.custom{
+  float: left;
+  width:130px;
+  max-height:340px;
+  color: #666666;
+  margin-bottom: 20px;
+  margin-left: 40px
+
+
+}
+.customHalf{
+  width:78px;
+  max-height:340px;
+  color: #666666;
+  margin-bottom: 20px
+ 
+
+
+}
+/* .LayoutSide{
+  width: 300px;
+  /* height: 335px; 
+  background: #E3EAF4 100%;
+  float: right;
+  margin-right: 5px; 
+} */
+.LayoutSide{
+  width: 330px;
+  background: #E3EAF4 100%; 
+  float: right;
+  }
+.Button_Control_Seventeen{
+  width: 290px;
+  height: 220px;
+  background: #E3EAF4 100%;
+  padding: 15px 0 0 15px
+}
+
+.Button_Control_Three{
+    width: 291px;
+    height: 107px; 
+    background: #E3EAF4 100%;
+    padding: 15px 0 0 15px;
+    
+    float: left
+}
+
+.ButtonImages{
+  float: left;
+  margin-right: 10px;
+}
+
+.SystemState_Button{
+  float: left;
+  margin-right: 10px;
+}
+
+.ButtonImages_interface{
+  float: left;
+}
+
+.Image{
+  margin: 5px 0px 5px 1px;
+  width: 18px;
+  height: 18px;
+  vertical-align:middle;
+}
+
+.span_section{
+  margin: 5px 30px 0px 5px;
+  font-size: 14px;
+  color: #666666;
+}
+
+.span_section_interface{
+  margin: 5px 0px 3px 5px;
+  font-size: 14px;
+  color: #666666;
+}
+
+.Layout_Content{
+  width: 1280px;
+  height: 1300px;
+  background: #f5f9fd 100%;
+  margin: 0 auto;
+  float: left;
+  }
+
+.Layout_PopUp{
+  width: 630px;
+  height: 300px;
+  margin: 150px 290px;
+}
+
+.PopUpWindow_title{
+  width:645px;
+  height:30px;
+  color: #333333;
+  background-color: #2884D8;
+  text-align: left;
+  line-height: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  
+}
+.PopUpWindow_title span{
+   padding-left: 10px
+}
+.Single_Extension{
+  float: right;
+  width: 360px;
+  height: 200px;
+  font-family: '微软雅黑';
+  font-size: 12px;
+  line-height: 20px;
+  margin-right: 20px;
+  background: #ffffff;
+  border: 2px solid #2884D8;
+  box-shadow:4px 4px 20px #000000 ;
+}
+/* 三级状态 */
+.Single_ExtensionMillimeter{
+    float: right;
+    width: 360px;
+    height:156px;
+    font-family: '微软雅黑';
+    font-size: 12px;
+    line-height: 20px;
+    margin-right: 20px;
+    background: #ffffff;
+    border: 2px solid #2884D8;
+    box-shadow:4px 4px 20px #000000 ;
+}
+
+.Three_State{
+  float: left;
+  width: 74px;
+  height:58px;
+  /* margin:0px 2px 2px 3px;
+  padding:3px 2px 1px 2px; */
+  font-family: 'HelveticaNeue';
+  font-size: 12px;
+  color:#909cb9;
+  text-align: center;
+  /* background: #25345d; */
+}
+
+
+.LightImage{
+  margin: 5px 27px 3px 25px;
+  width: 18px;
+  height: 18px;
+  vertical-align:middle;
+}
+
+.Three_State_LightSpan{
+  font-size: 14px;
+  color: #6a6a6a;
+}
+
+.PopUpWindow_Amplifier_Title{
+  width:360px;
+  height:30px;
+  color: #FFFFFf;
+  background-color: #2884D8;
+  text-align: left;
+  line-height: 30px;
+  font-size: 12px;
+  font-weight: bold;
+
+}
+.PopUpWindow_Amplifier_Title span {
+  padding-left: 10px
+}
+.SingleExtension{
+  width: 630px;
+  height: 300px;
+  margin: 150px auto;
+}
+
+.Light_Hundrend_Power{
+  width: 645px;
+  height:872px;
+
+  font-family: '微软雅黑';
+  font-size: 12px;
+  line-height: 20px;
+  margin-right: 20px;
+  /* text-align: center; */
+  background: #ffffff;
+
+  /* position: absolute; */
+  border: 2px solid #2884D8;
+  box-shadow:4px 4px 20px #000000 ;
+  }
+
+
+  .Light_Hundrend_State{
+    width: 580px;
+    height: 855px;
+    font-family: '微软雅黑';
+    font-size: 12px;
+    line-height: 20px;
+    margin-right: 20px;
+    /* background: #ffffff; */
+  }
+
+  .Three_PopUp_Window{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 490px;
+    left: 40px;
+    margin-left: 1035px;
+  }
+
+.Close_Window{
+  width:20px;
+  height:20px;
+  float:right;
+  margin:4px 5px 0 0 ;
+}
+
+/* .Three_PopUp{
+  /* float:left; */
+  /* position: absolute;
+  margin:0 auto;
+  max-width:400px;
+  max-height:400px;
+} */ */
+
+.Layout_PowerAdjustmentWindow{
+  width: 230px;
+  height: 500px;
+  margin:5px 100px;
+  position:relative;
+}
+
+
+.PowerAdjustmentWindow{
+  /* float: left; */
+  position:absolute;
+  width: 200px;
+  height: 370px;
+  margin: 0 auto;
+  color:#bbc4da;
+  margin-bottom: 7px;
+  font-family: '微软雅黑';
+  font-size: 12px;
+  line-height: 17px;
+  background: #b3bfdf 100%;
+}
+.connect{
+  margin-left: 30px;
+  width: auto;
+  margin-right: 30px;
+  margin-top: 30px;
+  height: auto;
+  margin-bottom:30px 
+}
+.connectThree{
+  margin-left: 30px;
+  width: auto;
+  margin-right: 30px;
+  margin-top: 30px;
+  height: 110px;
+  margin-bottom:30px 
+}
+.Source{
+  float: left;
+  width:250px;
+}
+.Button_Control_Xku{
+  width: 290px;
+  height: 115px; 
+  background: #E3EAF4 100%;
+  padding: 15px 0 0 15px;
+  margin-bottom: 20px;
+  float: left
+}
+.SDLC_2connectThree{
+  margin-left: 30px;
+  width: auto;
+  margin-right: 30px;
+  margin-top: 30px;
+  height: 110px;
+  margin-bottom:30px 
+}
+.MillimeterLight_Hundred{
+  width: 645px;
+  height: auto;
+  font-family: '微软雅黑';
+  font-size: 12px;
+  line-height: 20px;
+  margin-right: 20px;
+  text-align: center;
+  background: #ffffff;
+  border: 2px solid #2884D8;
+  box-shadow:4px 4px 20px #000000 ;
+}
+.connectThreeMillimeter{
+  margin-left: 30px;
+  width: auto;
+  margin-right: 30px;
+  margin-top: 30px;
+  height: 66px;
+  margin-bottom:30px 
+}
+.LayoutSideMillimeter{
+
+    width: 330px;
+
+    background: #E3EAF4 100%; 
+    float: right;
+}
+.Life{
+  float: left;
+  width:auto;
+  height:40px;
+}
+.Life input{
+  width: 72px;
+  height:25px;
+}
+.ArrayTupleMillimeter{
+  width:156px;
+  height: auto;
+}
+.transmitter{
+  height: 200px;
+  width:250px;
+  margin-left:30px;
+  margin-top: 156px;
+  float: left;
+}
+.field {
+  height: 'auto';
+  width: 'auto';
+  position: 'relative';
+  border: '1px solid #bdcddc';
+  padding: '10px 10px';
+  borderRadius: '2px';
+  float: 'left';
+  margin: '20px 10px',
+}

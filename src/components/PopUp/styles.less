@@ -1,0 +1,174 @@
+// 菜单区
+.Menu{
+    float: left;
+    width:1280px;
+    height: 109px; 
+ }
+ .singlemenu{
+     float: left;
+     height: 104px; 
+     margin:  5px 0px 0px 5px ;
+     padding: 4px 0 0 0; 
+     background: #182445
+ }
+ .menuButton{
+    float: left;
+    height: 70px; 
+    padding: 5px 5px 0 5px; 
+    background: #25345D
+ }
+ 
+ .menuRadioButton{
+    float: left;
+    width:100px;
+    height: 70px; 
+    padding: 5px 5px 0 5px; 
+    background: #25345D
+ }
+ .backcolor{
+    height: 62px;
+    padding: 10px 5px;
+ }
+ .menuName{
+    float: left; 
+    height: 14px;
+    font-family: 微软雅黑;
+    font-size: 12px; 
+    text-align: center;
+ }
+ 
+ // 内容区
+ .Content{
+    float: left;
+    width: 1280px;
+    min-height: 200px;
+    top: 108px;
+    // left: 10%;
+    // right: 10%;
+    position: absolute;
+    background: #666
+ }
+
+
+//弹窗区
+//弹窗整体布局
+.PopUpWindow{
+    float: right;
+    min-width: 200px;
+    min-height: 400px;
+    background: 100% center #ffffff;
+    border: 2px solid #2884D8;
+    box-shadow:4px 4px 20px #000000 ;
+}
+
+//弹窗标题栏
+.PopUpWindow_title{
+    min-width: 200px;
+    height:30px;
+    color: #FFFFFf;
+    background-color: #2884D8;
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 微软雅黑;
+    line-height: 30px;
+}
+.PopUpWindow_title span{
+    padding-left: 16px
+}
+//关闭弹窗按钮
+//   :global(.anticon){
+//       height:10px;
+//       width:10px;
+//   }
+.Close_Window{
+    width:25px;
+    height:25px;
+    float:right;
+    margin-top: 2px;
+    margin-right:5px;
+}
+
+
+//弹窗内容区
+.connect{
+    width: 1000px;//此处需修改内容区大小
+    min-height: 200px;
+    padding: 30px 30px;
+    background: #ffffff;
+}
+// 弹窗确定取消按钮
+.bottom_content{
+    float: left;
+    margin:0  0  30px 100px;
+ }
+
+//radio按钮
+:global(.ant-radio-inner) {
+    width:13px;
+    height:13px;
+    background: none;
+    font-family: 微软雅黑;
+    color:#666666;
+    font-size: 12px;
+    &:after{
+       height:5px;
+       width:5px;
+    }
+ }
+ 
+ //输入框
+ :global(.ant-input) {
+    width: 100px;
+    line-height:16px;
+    border:1px solid #D9D9D9;
+    border-radius:1px;
+ }
+ :global(.ant-input-affix-wrapper .ant-input:focus) {
+    border: none;
+    border-bottom: 1px solid white !important;
+    box-shadow: none;
+ }
+ //下拉框
+ :global(.ant-select-selection--single) {
+    width: 100px;
+    border:1px solid #D9D9D9;
+ }
+ :global(.ant-select-dropdown-menu-item:hover) {
+ background-color: #E6EDF5;
+ }
+ //表格
+ .myClass {
+    :global {
+        .ant-table-small > .ant-table-content > .ant-table-scroll > .ant-table-header > table > .ant-table-thead > tr > th{
+            padding: 5px 5px;
+            text-align: center;
+            font-size: 14px;
+            color: #333333 ;
+            height:30px;
+            font-family: "微软雅黑";
+            line-height:16px;
+            background: #D0DAE5;
+        }
+
+        .ant-table-tbody > tr > td {
+            font-family: "微软雅黑";
+            font-size: 14px;
+            // text-align: center;
+            color:#666666;
+            height:30px;
+            background: #E3EAF4;
+        }
+    }
+ }
+ //奇偶行变色  
+ .odd{
+    :global {
+       background: #ffffff 100%;
+    }  
+ }
+ .even{
+    :global {
+        background: #f9fafc 100%;
+    }  
+ }
